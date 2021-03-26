@@ -1,0 +1,65 @@
+#tabContenedor ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.botones{
+    background: rgb(88, 115, 231);
+    color: rgb(9, 168, 196);
+    padding: 7px;
+    margin: 5px;
+    border-radius: 15px;
+    
+}
+
+.botones:hover{
+    color: rgb(18, 190, 233);
+    border-radius: 40%;
+    transform:scale(1) ;
+}
+
+
+#tabContenido div{
+    display: inline;
+    position: absolute;
+    width: 60%;
+    background: rgb(135, 135, 228);
+    border-radius: 20px;
+}
+#tabContenido  div:not(:nth-child(1)){
+    display: none;
+}
+
+#tabContenido div:target{
+    display: inline-block;
+}
+#detalleInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15%;
+   
+}
+#detalleInfo table{
+    background: rgb(164, 192, 245);
+    padding: 5px;
+}
+#detalleInfo table tr:nth-child(odd){
+    background:rgb(87, 174, 245);
+
+}
+#detalleInfo table tr:nth-child(even){
+    background-color: rgb(11, 86, 184);
+}
+#base{
+    background: rgb(23, 178, 240);
+    padding: 40px ;
+    margin-top: 40px;
+    width: 60%;
+    margin: 60px;
+    margin-left: 20%;
+    color: white;
+    border-radius: 10px;
+   
+}

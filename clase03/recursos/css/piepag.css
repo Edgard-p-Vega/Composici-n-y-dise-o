@@ -1,0 +1,23 @@
+
+#piePagina {
+    background: rgb(157, 144, 230);
+    margin-top: 2%;
+    border: 1px solid #aadcd2;
+  
+}
+
+#piePagina i {
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+#piePagina li {
+    display: inline;
+}
+
+#piePagina ul {
+    text-align: center;
+}
+
